@@ -1,0 +1,399 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: #ffffff;
+}
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: #efefef;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+.menu-items {
+  width: 447px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.menu-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  text-decoration: none;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+  position: absolute;
+  top: 170px;
+}
+.header-info {
+  height: 200px;
+}
+.header-contacts {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+.header-logo {
+  width: 258px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call {
+  width: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+.recall {
+  width: 170px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  cursor: pointer;
+}
+.header-catalog {
+  width: 675px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.catalog-item {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.sale {
+  min-height: 854px;
+  background: #66c05d;
+  padding-top: 442px;
+  position: relative;
+}
+.sale-info {
+  width: 310px;
+  min-height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sale-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.sale-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.sale-btn {
+  width: 170px;
+  height: 40px;
+  background: #66c05d;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  cursor: pointer;
+
+  transition: background 0.2s linear;
+}
+.sale-btn:hover {
+  background: #ffffff;
+  color: #66c05d;
+}
+.sale-round1 {
+  width: 859px;
+  height: 859px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  right: -70px;
+  top: -309px;
+}
+.sale-round2 {
+  width: 677px;
+  height: 677px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  position: absolute;
+  right: 22px;
+  top: -218px;
+}
+.sale-chair {
+  width: 584px;
+  height: 584px;
+  position: absolute;
+  top: -172px;
+  right: 68px;
+}
+.offer {
+  width: 100%;
+  min-height: 954px;
+  background-color: #efefef;
+  padding-top: 80px;
+  padding-bottom: 132px;
+  z-index: 1;
+  position: relative;
+}
+.offer-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.offer-shops {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.shops-item {
+  width: 255px;
+  min-height: 363px;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.shops-img {
+  width: 125px;
+  height: 166px;
+  display: block;
+}
+.shops-descr {
+  width: 195px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  text-align: center;
+}
+.shops-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.shops-btn {
+  width: 130px;
+  height: 35px;
+  background: #66c05d;
+  border-radius: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s linear;
+}
+.shops-btn:hover {
+  background: #ffffff;
+  color: #66c05d;
+  border: solid 1px #66c05d;
+}
+.offer-info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.offer-block {
+  width: 540px;
+  min-height: 212px;
+  padding: 35px 45px 35px 40px;
+  background-color: #66c05d;
+  position: relative;
+}
+.block-title {
+  width: 250px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.block-descr {
+  margin-top: 25px;
+  width: 231px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.block-input {
+  margin-top: 25px;
+  width: 225px;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 30px;
+  border: none;
+  padding: 9px 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #c4c4c4;
+}
+.block-img {
+  position: absolute;
+  display: block;
+  width: 140px;
+  height: 140px;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.block-btn {
+  margin-top: 25px;
+  width: 170px;
+  height: 35px;
+  background: #66c05d;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  transition: background 0.2s linear;
+}
+.block-btn:hover {
+  background: #ffffff;
+  color: #66c05d;
+}
+.footer-top {
+  width: 100%;
+  height: 120px;
+  background-color: #ffffff;
+  padding-top: 37px;
+  padding-bottom: 38px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+  width: 337px;
+}
+.social-icons {
+  display: inline-block;
+  width: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #66c05d;
+  text-decoration: none;
+  color: #66c05d;
+}
+
+.adress {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.footer-bottom {
+  width: 100%;
+  height: 64px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rights {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
